@@ -1,0 +1,11 @@
+Objects = /UltrasonGaucheTorse,UltrasonDroiteTorse,UltrasonMilieuHaut,UltrasonMilieuBas,UltrasonTeteCentral,UltrasonTeteGauche,UltrasonTeteDroite,MoteurSparBar/
+
+
+<UltrasonGaucheTorse>Type = Ultrasonic;NumberPorts = 2;Utilisation = Pectoral Gauche;PortNames = Trigg,Echo;Trigg = 23;Echo = 24<EndUltrasonGaucheTorse>
+<UltrasonDroiteTorse>Type = Ultrasonic;NumberPorts = 2;Utilisation = Pectoral Droite;PortNames = Trigg,Echo;Trigg = 1;Echo = 2<EndUltrasonDroiteTorse>
+<UltrasonMilieuHaut>Type = Ultrasonic;NumberPorts = 2;Utilisation = Plexus;PortNames = Trigg,Echo;Trigg = 4;Echo = 5<EndUltrasonMilieuHaut>
+<UltrasonMilieuBas>Type = Ultrasonic;NumberPorts = 2;Utilisation = Hanche;PortNames = Trigg,Echo;Trigg = 7;Echo = 8<EndUltrasonMilieuBas>
+<UltrasonTeteCentral>Type = Ultrasonic;NumberPorts = 2;Utilisation = Tete Central;PortNames = Trigg,Echo;Trigg = 9;Echo = 10<EndUltrasonTeteCentral>
+<UltrasonTeteGauche>Type = Ultrasonic;NumberPorts = 2;Utilisation = Tete Gauche;PortNames = Trigg,Echo;Trigg = 11;Echo = 12<EndUltrasonTeteGauche>
+<UltrasonTeteDroite>Type = Ultrasonic;NumberPorts = 2;Utilisation = Tete Droite;PortNames = Trigg,Echo;Trigg = 13;Echo = 14<EndUltrasonTeteDroite>
+<MoteurSparBar>Type = MotorDC;NumberPorts = 2;Utilisation = Move SparBar With Roue Libre;PortNames = PWM;PWM = 17<EndMoteurSparBar>
